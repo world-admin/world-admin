@@ -1,0 +1,28 @@
+First, get the package:
+
+go get github.com/honeybadger-io/honeybadger-go
+Then import honeybadger:
+
+import "github.com/honeybadger-io/honeybadger-go"
+Finally, configure your API key:
+
+honeybadger.Configure(honeybadger.Configuration{APIKey: "hbp_rNUU5N8P89EhT77ZNgB7EYeUuEiMdL0DYgfZ"})
+You can also configure your API key using the HONEYBADGER_API_KEY environment variable:
+
+export HONEYBADGER_API_KEY=hbp_rNUU5N8P89EhT77ZNgB7EYeUuEiMdL0DYgfZ
+Usage
+To report unhandled errors in a function or method:
+
+func main() {
+  defer honeybadger.Monitor()
+  // application code...
+}
+To report unhandled errors during an HTTP request:
+
+log.Fatal(http.ListenAndServe(":8080", honeybadger.Handler(handler)))
+To report errors manually:
+
+if err != nil {
+  honeybadger.Notify(err)
+}
+ 
