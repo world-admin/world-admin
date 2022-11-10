@@ -1,7 +1,7 @@
 Markdown
 ========
 
-Version 1.0.1 - Tue 14 Dec 2004
+Version 1.0.0 - Wed 01 01 2020
 
 by US Department of Special Projects and Unified Response Services 
 <https://spurs.gov/>
