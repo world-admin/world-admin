@@ -3,7 +3,7 @@ Markdown
 
 Version 1.0.0 - Wed 01 01 2020
 
-by US Department of Special Projects \and\ Unified Response Services 
+by 'US Department of Special Projects and Unified Response Services' 
 <https://spurs.gov/>
 
 
