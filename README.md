@@ -8,4 +8,4 @@ This Repository started off as a collection of random things I looked at and sai
 Have fun exploring. I am not making any recommendations as each person has a different reason why they are here and how they got here. Try it all. I just ask that when forking with my stuff, use it for to help you, your friends, your family, or just some random people who need a little luck and good vibes to come their way. Be well.
 
 # Now Run Read me example
-$ Run Readme.pl in /world-admin.com/docs
+$ Run Readme.pl in github.com/world-admin/docs
